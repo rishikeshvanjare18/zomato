@@ -26,7 +26,7 @@
 
 </head>
 
-<body style="font-family:“Helvetica Neue”, “Helvetica”, “Calibri”, “Arial”, sans-serif">
+<body style="font-family:“Helvetica Neue”, “Helvetica”, “Calibri”, “Arial”, sans-serif;">
   
   
   <!--user story 1 -->
@@ -48,9 +48,9 @@
           </ul>
         </div>
       </div>
-    </div>
     </div> 
   </header>
+
   <div class="poster">
     <div class="d-flex flex-row-reverse" style="padding-top: 10px;">
       <div class="p-2 btn btn-outline-success my-2 my-sm-0" style="color:white; border-color:white;margin:10px;margin-top:10px;">
@@ -77,7 +77,7 @@
           <option value="Banglore">Banglore</option>
         </select>
 
-        <input id="search-rest" type="search" placeholder="Search for restaurants or cuisines..." class="search-rest"/>
+        <input id="search-rest" type="text" placeholder="Search for restaurants or cuisines..." class="search-rest"/>
 
         <button id="search-btn" class="search-btn" type="submit">Search</button>
 
@@ -91,13 +91,14 @@
 
 <div class="widget">
   <div class="widget1"> 
-    <h4>
-    Enter your delivery location
-    </h4>  
+    <h4>Enter your delivery location</h4>  
     <div class="location">
-      <input class="search-del" type="text" placeholder="Type delivery location here"></input>
+      <input class="search-del" type="text" placeholder="Type delivery location here"/>
+      <button class="detect-btn">Detect</button>
     </div>
-    <button class="detect-btn" class="search-btn" >Order Food Online!</button>
+    
+    <br/><br/>
+    <button class="order-btn">Order Food Online!</button>
     <br/><br/>
     <h3>Use code  ZOMATO to get up to 50% OFF. T&Cs apply.</h3>
   </div>
@@ -148,7 +149,6 @@
         </div>
       </div>
 
-    </div>
   </div>
 </div>
 
@@ -204,7 +204,7 @@
 
 <footer>
     
-      <img src="img/zomato.jpg" width="50px" style="margin: 10px;">
+      <img src="img/zomato.jpg" width="80px" style="margin: 10px;">
     
       <select class="city2" name="city3">
         <option value="Mumbai">Mumbai</option>
@@ -214,7 +214,7 @@
       </select>
       <hr>
     <div class="footer-wrapper">
-        <ul style="list-style:square">
+        <ul style="list-style:square"></ul>
           <li>About Zomato</li>
           <li>For Foodies</li>
           <li>For Restaurants</li>
@@ -223,8 +223,6 @@
     </div>
 
 </footer>
-
-
 
 </body>
 

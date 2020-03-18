@@ -91,6 +91,7 @@ body{
         background-color: lightgrey;
         height:auto;
         margin-right:20px;
+        margin-bottom: 10px;
     }
 
     .widget1{
@@ -119,24 +120,40 @@ body{
 
     .search-del{
         height:40px;
-        width:100%;
-        border:solid black 1px;
-        border-radius: 5px;
-        
+        width:75%;
+        border-style: none;
         
     }
 
     .detect-btn{
         height:40px;
-        width:100%;
-        color:white;
-        background-color: green;
-        border: 1px red;
+        width:20%;
+        color:black;
+        background-color: lightgray;
+        border: 1px black;
         border-radius: 5px;
-        margin-right: 10px;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        float: right;
+        
     }
+
+    .location{
+        border: solid black 1px;
+        border-radius: 5px;
+        height:auto;
+    }
+
+    .order-btn{
+        width:100%;
+        height:40px;
+        background-color: darkkhaki;
+        color:white;
+    }
+    .order-btn:hover{
+        background-color: black;
+        color:white;
+        font-style: oblique;
+    }
+
 
     a{
         font-style: oblique;
@@ -220,8 +237,8 @@ body{
         color: white;
     }
     .footer-wrapper{
-        list-style: none;
-        
+        height: auto;
+        margin: 100px;
     }
 
 
@@ -328,6 +345,16 @@ body{
             
         }
 
+        .detect-btn{
+            height:40px;
+            width:20%;
+            color:black;
+            background-color: white;
+            border-left: solid black 1px;
+            border-radius: 0px;
+            float: right;
+            
+        }
         
         
 
